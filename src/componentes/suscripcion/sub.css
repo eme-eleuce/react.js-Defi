@@ -1,0 +1,43 @@
+.suscripcion {
+    background-color: black;
+    color: #f8f8f8;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.suscripcion .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.suscripcion .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1.8rem 0;
+}
+
+.suscripcion input {
+    padding: .7rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    margin: 2.3rem;
+    box-shadow: 0px 0px 12px var(--primary-blue);
+}
+
+
+
+
+@media screen and (max-width: 495px) {
+    .suscripcion .display-col {
+        flex-direction: column;
+    }
+}
